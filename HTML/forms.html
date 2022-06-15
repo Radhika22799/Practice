@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<style> 
+		body{
+			background-color: rgba(10,30,50,0.5);
+		}
+		input{
+          margin:10px 10px 10px 30px;
+		}
+		label,div,caption
+		{
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<h1>STUDENT REGISTRATION FORM</h1>
+	<form action="/action.php" method="post">
+		<label for="fname">FIRST NAME : </label>
+		<input type="text" id="fname" name="Fname"><br>
+		<label for="lname">LAST NAME : </label>
+		<input type="text" id="lname" name="Lname"><br>
+        <label for="date">DATE OF BIRTH : </label>
+        <input type="date" id="date" name="DOB" min="1995-01-01" max="2002-12-31"><br>
+        <label for="mail">EMAIL ID : </label>
+        <input type="email" id="mail" name="email"><br>
+        <label for="phone">PHONE NUMBER : </label>
+        <input type="tel" id="phone" name="ph"><br>
+    <div>
+        	GENDER : 
+        <input type="radio" id="male" value="male">
+        <label for="male">MALE</label>
+        <input type="radio" id="female" value="female">
+        <label for="female">FEMALE</label>
+        <input type="radio" id="other" value="other">
+        <label for="other">OTHER</label>
+    </div>
+        <label for="add">ADDRESS :</label>
+        <textarea id="add" name="add" rows="4" cols="50"> 
+        </textarea><br>
+        <label for="city">CITY :</label>
+        <input type="text" id="city" name="city"><br>
+        <label for="pcode">PIN CODE :</label>
+        <input type="text" id="pcode" name="pcode" maxlength="6"><br>
+        <label for="state">STATE :</label>
+        <input type="text" id="state" name="state"><br>
+        <label for="country">COUNTRY :</label>
+        <input type="text" id="country" name="country"><br>
+        <div> COURSES APPLYING FOR : 
+        	<input type="checkbox" id="bsc" value="B.Sc">
+        	<label for="bsc">B.Sc</label>
+        	<input type="checkbox" id="msc" value="M.Sc">
+        	<label for="msc">M.Sc</label>
+<input type="checkbox" id="imsc" value="IMSc">
+        	<label for="imsc">IMSc</label>
+<input type="checkbox" id="bca" value="Bca">
+        	<label for="bca">BCA</label>
+<input type="checkbox" id="btech" value="btech">
+        	<label for="btech">BTech</label>
+<input type="checkbox" id="mca" value="mca">
+        	<label for="mca">MCA</label>
+        </div><br>
+<!-- <label for="qual">QUALIFICATION :</label>
+<select id="qual" name="qualification">
+	<option value="class10">CLASS X</option>
+	<option value="class12">CLASS XII</option>
+	<option value="graduation">GRADUATION</option>
+</select>
+<label for="marks" style="word-wrap: 10px">PERCENTAGE OR CGPA</label>
+ <input type="" -->
+ 
+ 	<table>
+ 		<caption>QUALIFICATION</caption>
+ 		<tr>
+ 			<th>Sl.No.</th>
+ 			<th>Examination</th>
+ 			<th>Percentage</th>
+ 			<th>Year Of Passing</th>
+ 		</tr>
+ 		<tr>
+ 			<td>1</td>
+ 			<td>CLASS X</td>
+ 			<td>
+ 				<input type="text" name="ClassX_%" maxlength="4">
+ 			</td>
+ 			<td>
+ 				<input type="NUMBER" name="ClassX_passing" min="2015" max="2018">
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>2</td>
+ 			<td>CLASS XII</td>
+ 			<td>
+ 				<input type="text" name="ClassXII_%" maxlength="4">
+ 			</td>
+ 			<td>
+ 				<input type="NUMBER" name="ClassXII_passing" min="2017" max="2020">
+ 			</td>
+ 		</tr>
+ 		<tr>
+ 			<td>3</td>
+ 			<td>GRADUATION</td>
+ 			<td>
+ 				<input type="text" name="Graduation_%" maxlength="4">
+ 			</td>
+ 			<td>
+ 				<input type="NUMBER" name="Graduation_passing" min="2019" max="2021">
+ 			</td>
+ 		</tr>
+
+ 		<!-- <tr> -->
+ 			<!-- < -->
+
+</table>
+
+		<br><input type="submit" value="SUBMIT">
+		<input type="reset" value="RESET"> 
+
+
+	</form>
+</body>
+</html>
