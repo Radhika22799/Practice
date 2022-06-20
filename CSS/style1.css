@@ -1,0 +1,37 @@
+.container{
+	background-color: grey;
+	color:orange;
+	/*background-image: url("img_lights.JPG");
+	background-clip: padding-box;
+	background-size: contain;*/
+}
+div
+{
+	background-color: aqua;
+	color: red;
+	padding: 10px;
+}
+p{
+	color: black;
+	/*background-image: url("img_lights.jpg");*/
+	margin:10px;
+	padding:50px;
+	border: black;
+	border-style: solid;
+	background-color: lightgreen;
+}
+/*.container{
+	background-color: grey;
+	color:orange;
+}*/
+
+body{
+	/*background-image: url("img_lights.JPG");
+	background-clip: padding-box;
+	background-size: 1000px;*/ /*contain auto width height*/
+	/*background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-position: center ;*/
+	background: brown url("img_lights.jpg") no-repeat fixed center/500px;
+	
+}
