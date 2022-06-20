@@ -1,0 +1,11 @@
+body{
+			background-color: rgba(10,30,50,0.5);
+		}
+		input{
+          margin:10px 10px 10px 30px;
+		}
+		label,div,caption
+		{
+			font-weight: bold;
+		}
+		
