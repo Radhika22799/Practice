@@ -1,6 +1,6 @@
 .container{
 	background-color: grey;
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
 	color:orange;
 	width:1000px;
 	height: 400px;
