@@ -1,0 +1,15 @@
+*{
+	margin: 0px;
+}
+.box1{
+	background-color: #15595F;
+	width: 50%;
+	height: 200px;
+	float:right;
+}
+.box2{
+	background-color: #528F26;
+	width: 50%;
+	height: 200px;
+	/*float:left;*/
+}
